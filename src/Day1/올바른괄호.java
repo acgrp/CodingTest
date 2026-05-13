@@ -15,13 +15,13 @@ public class 올바른괄호 {
                 stack.push(c);
             }else {
                 if(stack.isEmpty()){
-                    return false;
+//                    return false;
                 }
 
                 stack.pop();
             }
         }
 
-        return stack.empty();
+//        return stack.empty();
     }
 }
