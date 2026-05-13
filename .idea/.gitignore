@@ -1,10 +1,18 @@
 # 디폴트 무시된 파일
 /shelf/
 /workspace.xml
+<<<<<<< HEAD
 # 에디터 기반 HTTP 클라이언트 요청
 /httpRequests/
+=======
+>>>>>>> 09b26e2921b4836c89dae872234e61a6c48d3b0a
 # 쿼리 파일을 포함한 무시된 디폴트 폴더
 /queries/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+<<<<<<< HEAD
+=======
+# 에디터 기반 HTTP 클라이언트 요청
+/httpRequests/
+>>>>>>> 09b26e2921b4836c89dae872234e61a6c48d3b0a
