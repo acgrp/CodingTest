@@ -2,14 +2,7 @@ package Day3;
 
 public class 네트워크 {
 
-    public static void main(String[] args) {
-
-        int n = 3;
-        int[][] computers = {
-                {1, 1, 0},
-                {1, 1, 0},
-                {0, 0, 1}
-        };
+    public int solution(int n, int[][] computers) {
 
         int answer = 0;
         boolean[] visited = new boolean[n];
@@ -21,8 +14,7 @@ public class 네트워크 {
             }
         }
 
-        System.out.println(answer);
-
+        return answer;
     }
 
     private static void dfs(int[][] computers, int i, boolean[] visited) {

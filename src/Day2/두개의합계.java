@@ -1,6 +1,5 @@
 package Day2;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class 두개의합계 {
     public int[] twoSum(int[] nums, int target) {

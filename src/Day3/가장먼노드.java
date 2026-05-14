@@ -1,9 +1,6 @@
 package Day3;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class 가장먼노드 {
     public int solution(int n, int[][] edge) {
